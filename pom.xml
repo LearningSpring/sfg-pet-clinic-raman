@@ -14,7 +14,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>sfg-pet-clinic</description>
     <properties>
@@ -27,14 +27,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -49,6 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:LearningSpring/sfg-pet-clinic-raman.git</developerConnection>
+        <url>git@github.com:LearningSpring/sfg-pet-clinic-raman.git</url>
         <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 </project>
